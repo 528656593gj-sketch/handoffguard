@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+handoffguard-report.md
+report.json

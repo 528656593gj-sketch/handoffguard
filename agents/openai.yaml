@@ -1,0 +1,4 @@
+interface:
+  display_name: "HandoffGuard"
+  short_description: "Check delivery folders before handoff"
+  default_prompt: "Use $handoffguard to audit this delivery folder against its checklist."

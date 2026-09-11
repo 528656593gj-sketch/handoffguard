@@ -1,0 +1,31 @@
+{
+  "project_name": "30-second video delivery",
+  "required": [
+    {
+      "label": "Final video",
+      "extensions": [".mp4"],
+      "patterns": ["*final*", "*成片*"],
+      "min_count": 1,
+      "max_count": 1
+    },
+    {
+      "label": "Subtitle file",
+      "extensions": [".srt"],
+      "min_count": 1,
+      "max_count": 1
+    },
+    {
+      "label": "Cover images",
+      "extensions": [".jpg", ".jpeg", ".png"],
+      "patterns": ["*cover*", "*封面*"],
+      "min_count": 3
+    },
+    {
+      "label": "Project description",
+      "extensions": [".txt", ".docx", ".pdf"],
+      "patterns": ["*project*", "*项目说明*"],
+      "min_count": 1,
+      "max_count": 1
+    }
+  ]
+}
